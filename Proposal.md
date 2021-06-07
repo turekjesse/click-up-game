@@ -25,7 +25,7 @@ Each round ends when the ball touches the ground.
 
 ## Wire Frames
 
-PLease find wireframes in the wireframe directory:
+PLease find wireframes in the wireframe directory: https://github.com/turekjesse/click-up-game/tree/main/wireframes
 
 ## User Stories
 > Add user stories following the _As a [type of user], I want [what the user wants], so that [what it helps accomplish]_ format.
