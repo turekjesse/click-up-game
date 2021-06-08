@@ -6,31 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Click Up</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/app.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet"> 
+    <script defer src="js/app.js"></script>
 </head>
 <body>
     <header class="flex-container">
-        <div class="ball-selector">
+        <!-- <div class="ball-selector">
             <div class="ball ball-lrg">5pt</div>
             <div class="ball ball-med">10pt</div>
             <div class="ball ball-sml">20</div>
-        </div>
-        <h1>CLICK UP</h1>
+        </div> -->
+            <h1>CLICK UP</h1>
         <div class="score-board">
             <div class="current-score game-stat">SCORE: 0000</div>
             <div class="current-volley game-stat">VOLLEY: 0000</div>
         </div>
     </header>
     <main>
-        <canvas></canvas>
+        <div class="ball ball-lrg"></div>
     </main>
     <footer class="flex-container">
         <div class="score-board">
             <div class="top-score game-stat">TOP SCORE: 0000</div>
             <div class="top-volley game-stat">TOP VOLLEY: 0000</div>
         </div>
-        <div></div>
-        <div></div>
+        <button id="start-game">START GAME</button>
+        <button id="pause-game">PAUSE GAME</button>
         <p><a href="#">ABOUT</a></p>
     </footer>
 </body>
